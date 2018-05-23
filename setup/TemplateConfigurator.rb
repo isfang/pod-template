@@ -69,8 +69,8 @@ module Pod
 
     def run
 
-      print "欢迎使用涂鸦科技iOS"
-      print "目前只支持 iOS-OC"
+      print "\nhello "
+      print "\nonly support iOS-OC"
       
       ConfigureIOS.perform(configurator: self)
 
